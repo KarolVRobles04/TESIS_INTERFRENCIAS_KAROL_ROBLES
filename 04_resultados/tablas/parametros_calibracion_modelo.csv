@@ -1,0 +1,2 @@
+n_logdistance,azimut_TX_deg,useBuildings,maxExtraLoss_dB,correccion_global_dB,MAE_cal_dB,RMSE_cal_dB,Bias_cal_dB,STD_cal_dB,N_cal,MAE_val_dB,RMSE_val_dB,Bias_val_dB,STD_val_dB,N_val,MAE_all_dB,RMSE_all_dB,Bias_all_dB,STD_all_dB,N_all
+2.95,336,1,9,23.5980755394071,2.25467984394838,2.66180428856013,2.368475785867e-15,2.91586050501675,6,NaN,NaN,NaN,NaN,0,2.25467984394838,2.66180428856013,2.368475785867e-15,2.91586050501675,6
