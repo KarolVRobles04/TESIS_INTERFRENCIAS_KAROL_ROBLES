@@ -23,16 +23,17 @@ El script principal disponible actualmente es:
 
 ## Resultados actuales
 
-Los resultados disponibles corresponden a la calibracion del modelo con seis puntos de medicion:
+Los resultados disponibles corresponden a la calibracion del modelo para tres bandas evaluadas:
 
-- Numero de puntos validos: 6
-- MAE calibrado: 2.25 dB
-- RMSE calibrado: 2.66 dB
+| Banda | Frecuencia | Puntos validos | MAE calibrado | RMSE calibrado |
+| --- | ---: | ---: | ---: | ---: |
+| FM | 101.7 MHz | 8 | 5.33 dB | 6.17 dB |
+| LTE | 877 MHz | 8 | 1.11 dB | 1.52 dB |
+| TDT | 469 MHz | 6 | 2.25 dB | 2.66 dB |
 
-Las tablas se encuentran en `04_resultados/tablas/` y las figuras disponibles en `04_resultados/figuras/`.
+Las tablas se encuentran organizadas por banda en `04_resultados/tablas/` y las figuras disponibles en `04_resultados/figuras/`.
 
 ## Autores
 
 - Johann David Vanegas Archila
 - Karol Vaneza Robles Canizales
-
