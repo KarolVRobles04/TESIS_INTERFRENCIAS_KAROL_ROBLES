@@ -28,7 +28,7 @@ tx.z_m = 1050;
 tx.ant_agl_m = 10;
 tx.terrain_m = tx.z_m - tx.ant_agl_m;
 
-tx.Pt_dBm = 25;
+tx.Pt_dBm = 22.65;
 tx.Ltx_dB = 1.0;
 
 tx.Gmax_dBi = 10.0;
@@ -49,35 +49,46 @@ rx.ant_agl_m = 1.5;
 rx.Gr_dBi = 0.0;
 rx.Lrx_dB = 1.0;
 
-rxList(1).lat = 7.140285;
-rxList(1).lon = -73.116310;
-rxList(1).z_m = 1023.8;
-rxList(1).E_meas_dBuVm = 73.7;
+rxList(1).lat = 7.140807;
+rxList(1).lon = -73.117425;
+rxList(1).z_m = 1017.4;
+rxList(1).E_meas_dBuVm = 67.5;
 
-rxList(2).lat = 7.140600;
-rxList(2).lon = -73.116722;
-rxList(2).z_m = 1009.0;
-rxList(2).E_meas_dBuVm = 79.1;
+rxList(2).lat = 7.141802;
+rxList(2).lon = -73.118573;
+rxList(2).z_m = 1015.0;
+rxList(2).E_meas_dBuVm = 77.3;
 
-rxList(3).lat = 7.140712;
-rxList(3).lon = -73.117330;
-rxList(3).z_m = 1011.2;
-rxList(3).E_meas_dBuVm = 89.6;
+rxList(3).lat = 7.140902;
+rxList(3).lon = -73.119060;
+rxList(3).z_m = 1014.2;
+rxList(3).E_meas_dBuVm = 86.9;
 
-rxList(4).lat = 7.140273;
-rxList(4).lon = -73.117800;
-rxList(4).z_m = 1005.8;
-rxList(4).E_meas_dBuVm = 92.9;
+rxList(4).lat = 7.139772;
+rxList(4).lon = -73.118862;
+rxList(4).z_m = 1013.3;
+rxList(4).E_meas_dBuVm = 85.3;
 
-rxList(5).lat = 7.141513;
-rxList(5).lon = -73.117838;
-rxList(5).z_m = 1018.6;
-rxList(5).E_meas_dBuVm = 89.8;
+rxList(5).lat = 7.139485;
+rxList(5).lon = -73.120615;
+rxList(5).z_m = 1013.9;
+rxList(5).E_meas_dBuVm = 85.6;
 
-rxList(6).lat = 7.141760;
-rxList(6).lon = -73.118563;
-rxList(6).z_m = 1009.2;
-rxList(6).E_meas_dBuVm = 78.9;
+rxList(6).lat = 7.140268;
+rxList(6).lon = -73.120995;
+rxList(6).z_m = 1014.6;
+rxList(6).E_meas_dBuVm = 71.8;
+
+rxList(7).lat = 7.141012;
+rxList(7).lon = -73.119530;
+rxList(7).z_m = 1021.5;
+rxList(7).E_meas_dBuVm = 87.4;
+
+rxList(8).lat = 7.141888;
+rxList(8).lon = -73.119448;
+rxList(8).z_m = 1020.5;
+rxList(8).E_meas_dBuVm = 71.1;
+
 nRX = numel(rxList);
 
 for i = 1:nRX
@@ -88,14 +99,14 @@ end
 %% =========================================================
 %  3. PARAMETROS DE SIMULACION
 %  =========================================================
-sim.freq_Hz = 469e6;
+sim.freq_Hz = 101.7e6;
 
 sim.pathLossModel = "logdistance";
 sim.d0_m = 1.0;
 sim.pathLossExponent_n = 2.35;
 
-sim.useShadowing = false;
-sim.shadowingSigma_dB = 0.0;
+sim.useShadowing = true;
+sim.shadowingSigma_dB = 2;
 sim.shadowingCorrelation_m = 22;
 sim.randomSeed = 17;
 
