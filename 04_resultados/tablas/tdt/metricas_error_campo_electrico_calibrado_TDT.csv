@@ -1,0 +1,2 @@
+puntos_validos,MAE_dB,RMSE_dB,Bias_dB,STD_error_dB,correccion_global_dB,n_logdistance,sigma_shadowing_dB,maxExtraLoss_dB,azimut_TX_deg,useBuildings,frecuencia_MHz,visualMode,measurementInfluenceRadius_m,measurementCorridorRadius_m,residualIDWPower,residualMaxRadius_m
+6,2.25467984394838,2.66180428856013,2.368475785867e-15,2.91586050501675,23.5980755394071,2.95,0,9,336,1,469,hybrid,72,52,2.2,190
