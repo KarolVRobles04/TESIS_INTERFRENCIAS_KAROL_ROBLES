@@ -1,21 +1,25 @@
 # Resultados
 
-Esta carpeta contiene las salidas generadas durante el procesamiento y la calibracion del modelo.
+Esta carpeta contiene los resultados generados a partir del procesamiento, calibracion y analisis de las mediciones realizadas en las bandas FM, LTE y TDT.
 
-## Tablas
+## Estructura
 
-En `tablas/` los resultados se organizan por banda:
-
-- `fm/`: resultados calibrados para FM.
-- `lte/`: resultados calibrados para LTE.
-- `tdt/`: resultados calibrados para TDT.
-
-Cada carpeta contiene archivos de comparacion de campo electrico, metricas de error, parametros seleccionados y combinaciones principales evaluadas durante la calibracion.
+- `figuras/`: contiene las imagenes asociadas al analisis, incluyendo mapas de calor, espectros, capturas de procesamiento y montaje experimental.
+- `tablas/`: contiene archivos CSV con metricas, parametros de calibracion y comparaciones entre mediciones y simulaciones.
 
 ## Figuras
 
-En `figuras/` se encuentran capturas y mapas disponibles hasta el momento:
+Las figuras se organizan segun el tipo de resultado generado:
 
-- `capturas_procesamiento/`: capturas de MATLAB y Colab para FM, LTE y TDT.
-- `mapas_calor/`: mapas de calor generados.
-- `espectros/` y `montaje_experimental/`: carpetas preparadas para nuevas figuras cuando esten disponibles.
+- `mapas_calor/`: mapas de campo electrico estimado.
+- `espectros/`: capturas de espectro organizadas por banda.
+- `montaje_experimental/`: evidencias del montaje y escenarios de medicion.
+- `capturas_procesamiento/`: salidas graficas asociadas al procesamiento.
+
+## Tablas
+
+Las tablas contienen los resultados numericos del proceso de calibracion y validacion del modelo, organizados por banda de analisis.
+
+## Consideracion
+
+Los archivos de esta carpeta corresponden a resultados derivados del tratamiento de los datos y sirven como soporte para el analisis presentado en el documento del proyecto.
