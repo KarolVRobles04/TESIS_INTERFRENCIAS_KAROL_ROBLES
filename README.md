@@ -11,7 +11,7 @@ Este repositorio contiene los datos, codigos, resultados y documentos asociados 
 - `03_codigo/`: scripts de simulacion, procesamiento y validacion.
 - `04_resultados/`: tablas, metricas y figuras generadas.
 - `05_anexos/`: evidencia complementaria del proceso experimental.
-- `06_referencias/`: bibliografia, normas y documentos de soporte.
+
 
 ## Modelo empleado
 
