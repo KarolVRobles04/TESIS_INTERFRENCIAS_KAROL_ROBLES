@@ -15,9 +15,9 @@ Este repositorio contiene los datos, codigos, resultados y documentos asociados 
 
 ## Acceso a anexos
 
-Los evaluadores pueden consultar el instructivo de acceso a los anexos en:
+Los evaluadores pueden consultar el instructivo de acceso a los anexos en PDF:
 
-- `05_anexos/INSTRUCTIVO_ACCESO_ANEXOS.md`
+- `05_anexos/Instructivo_acceso_anexos.pdf`
 
 ## Modelo empleado
 
