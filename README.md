@@ -13,6 +13,12 @@ Este repositorio contiene los datos, codigos, resultados y documentos asociados 
 - `05_anexos/`: evidencia complementaria del proceso experimental.
 
 
+## Acceso a anexos
+
+Los evaluadores pueden consultar el instructivo de acceso a los anexos en:
+
+- `05_anexos/INSTRUCTIVO_ACCESO_ANEXOS.md`
+
 ## Modelo empleado
 
 Para la estimacion del campo electrico se emplea un modelo Log-Distance calibrado, con consideracion de perdidas adicionales por entorno y apoyo de insumos cartograficos del campus UIS.
